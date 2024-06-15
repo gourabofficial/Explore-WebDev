@@ -1,0 +1,39 @@
+/* Reset the list style */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the list items to display horizontally */
+nav li {
+    float: left;
+}
+
+/* Style the links */
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Change the color on hover */
+nav li a:hover {
+    background-color: #232F3E;
+}
+
+/* Add a logo */
+nav .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF9900;
+}

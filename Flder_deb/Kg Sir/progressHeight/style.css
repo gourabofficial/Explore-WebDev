@@ -1,0 +1,23 @@
+.heightContainer {
+  height: 500px;
+  width: 50px;
+  background-color: burlywood;
+  border: 3px solid black;
+  border-radius: 20px;
+  position: relative;
+  left: 10%;
+}
+.heightBar {
+  height: 500px;
+  background-color: aqua;
+  border-radius: 20px;
+  animation: height 3s 3s 6;
+}
+@keyframes height {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}

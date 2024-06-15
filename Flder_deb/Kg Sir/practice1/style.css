@@ -1,0 +1,22 @@
+.myclass{
+    text-align: center;
+    background-color: aliceblue;
+}
+   
+body{
+    text-align:center;
+    
+    background:#e7e1e1 ;
+   
+     background-image:url('/practice1/gourab_sr4_1712592941597.jpeg');
+     background-size: cover;
+    filter: blur();
+    }
+#sign{
+    text-align: right;
+    color:red;
+
+}
+form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

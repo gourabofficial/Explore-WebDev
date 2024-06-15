@@ -1,0 +1,22 @@
+.progress_container{
+    height: 25px;
+    width: 90%;
+    background-color:bisque;
+    border-radius: 20px;
+    border:2px solid black;
+    position: relative;
+    left:4%;
+
+}
+.progress_bar{
+    height:100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    animation: progress 3s 3s 6;
+  
+}
+@keyframes progress {
+    from{width:0%;}
+    to{width:100%;}
+    
+}
