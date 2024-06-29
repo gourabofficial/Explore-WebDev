@@ -1,14 +1,21 @@
 body{
    
-    background-color: #e7e1e1;
+   
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-image: url("https://images.unsplash.com/photo-1655918059192-f6332e645272?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
-     background-size:cover;
+    background-size:cover;
     background-repeat:  no-repeat;
     background-attachment: fixed;
-    
+    background-position: center;    
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -26,11 +33,16 @@ span{
 
 }
 p{
+    text-align: center;
+    line-height: 1.5;
+    font-weight:  bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin: 0;
     padding:1%;
-    color:black
+    color:black;
+    
+    
    
 }
 form{
@@ -39,9 +51,11 @@ form{
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #cfaeae75;
+    background-color: #afa3a375;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(184, 11, 11, 0.1);
+   
+ 
 }
 form input[type="text"],form input{
     width: 100%;
@@ -52,11 +66,19 @@ form input[type="text"],form input{
 }
 .event{
     left:0%;
-   
+    font-weight: 900;
+    color: black;
+    background-color: #e4e6e7;
+    border:2px solid black;
+    width: 30%;
+    padding:20px;
+    margin:20px;
    
 }
 h2{
     padding: 20px;
+    margin:20px;
+    
     font-size: 25px;
     color: #070707;
    
