@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gourab Ganguly's Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    animation: slideDown 1s ease-out;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  section {
+    padding: 50px;
+  }
+
+  section p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
 </head>
 <body>
-    <div id="div1">
-        div1
-    </div>
-    <div id="div2">
-        div2
-    </div>
-    <button id="button">click</button>
+
+<header>
+  <h1>Welcome to Gourab Ganguly's Portfolio</h1>
+</header>
+
+<section>
+  <p>Hi, I am Gourab Ganguly, a 3rd year B.Tech CSE student who loves coding and riding. This is my portfolio website where you can learn more about my projects and skills.</p>
+  <button class="btn">Learn More</button>
+</section>
+
 </body>
 </html>

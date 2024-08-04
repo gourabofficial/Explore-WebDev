@@ -1,25 +1,37 @@
-#div1{
-    height: 200px;
-    width: 200px;
-    padding: 5px;
-    box-sizing: border-box;
-    border: 3px solid red;
-    background-color: cadetblue;
+body {
+    
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
 }
-button{
-    height: 100px;
-    width: 100px;
-    padding: 10px 15px;
-    margin: 200px;
-    border: 2px dotted red;
-    border-radius:50%;
-}
-#div2{
-    height: 200px;
+
+.box {
+    position: absolute;
     width: 200px;
-    box-sizing:content-box;
-    margin: 10px;
-    padding: 5px;
-    border: 3px solid blue;
-    background-color: cadetblue;
+    height: 200px;
+   
+    font-size: 24px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.box1 {
+    background-color: red;
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+}
+
+.box2 {
+    background-color: green;
+    /* z-index: 1; */
+    top: 150px;
+    left: 150px;
+}
+
+.box3 {
+    background-color: blue;
+  /* z-index: 1; */
+    top: 200px;
+    left: 200px;
 }

@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("https://images.unsplash.com/photo-1655918059192-f6332e645272?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    
     background-size:cover;
     background-repeat:  no-repeat;
     background-attachment: fixed;
@@ -35,7 +36,8 @@ span{
 p{
     text-align: center;
     line-height: 1.5;
-    font-weight:  bold;
+    font-style: italic;
+    font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin: 0;
@@ -46,6 +48,7 @@ p{
    
 }
 form{
+   margin: 10px 10px 10px 10px;
     font-size: 17px;
     width: 100%;
     max-width: 500px;
